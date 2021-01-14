@@ -1,0 +1,138 @@
+h1 {
+  color: orange;
+  font-size:  300%;
+}
+
+body {
+  background:rgba(80,80,10,5);
+}
+
+.link:hover {
+  color: pink;
+}
+
+#grav {
+  width: 100%;
+  background-color: orange;
+  height:50px;
+  margin-bottom: -11px;
+}
+
+#grav ul {
+  overflow: hidden;
+}
+
+#grav li {
+  display: inline-block;
+  color: orange;
+  width: 260px;
+}
+
+.inner  {
+  text-align: center;
+  color: black;
+  font-weight: bolder;
+  line-height: 3;
+  margin-right: 30px;
+}
+
+img {
+  position: relative;
+  display: inline-block;
+}
+
+.caption1 {
+  position: absolute;
+  left: 150px;
+  bottom: 115px;
+  color: black;
+  } .caption2 {
+  position: absolute;
+  left: 610px;
+  bottom: 115px;
+  color: rgb(7, 7, 7);
+}
+
+h2 {
+  color: lightblue;
+  margin-top: 0;
+}
+
+audio {
+  background-color: "lightgray";
+}
+
+/* content */
+body {
+  text-align: center;
+}
+
+p .img .img1 .img2 .img3 {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.para {
+  color: #fff;
+  margin-top: -35px;
+  margin-left:  10px;
+}
+
+#photo {
+  margin-top: 20px;
+}
+
+/* contact */
+
+.f {
+  display: inline-block;
+  text-align: center;
+}
+
+form {
+  width: 500px;
+  padding: 30px;
+  background: #cfdfdfef;
+  border: 1px solid #cccccc;
+  -webkit-border-radius: 2 2 6 rgba(0,0,0,0,3);
+  -moz-border-radius: 2 2 6 rgba(0,0,0,0,3);
+  border-radius: 2 2 6 rgba(0,0,0,0,3);
+  margin-top: 20px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+#author, #mail, #textarea {
+  padding: 3px;
+  width: 300px;
+  font-size: medium;
+  border: #66aaee 2px solid;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 2 2 6 rgba(0,0,0,0.3);
+  -moz-box-shadow: inset 2 2 6 rgba(0,0,0,0.3);
+  box-shadow: inset 2 2 6 rgba(0,0,0,0.3);
+}
+
+#button {
+  padding: 6 10;
+  border: 1 solid #666666;
+  line-height: 1.0;
+  font-size: medium;
+  font-weight: bold;
+  color: white;
+  background: skyblue;
+  text-shadow: -1 -1 1 rgba(0,0,0,0.3);
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+}
+
+footer p {
+  color: white;
+  font-size: 5px;
+  padding-top: 2.5px;
+}
