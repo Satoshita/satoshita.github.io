@@ -127,6 +127,58 @@ h2 .side {
   color: #fff;
 }
 
+/*ストップウォッチ*/
+body {
+  font-family: Noto Sans CJK JP;
+  font-size: 14px;;
+}
+
+.container {
+  margin: 20px auto;
+  width: 290px;
+  /* height: 150px; */
+  background: darkblue;
+  padding: 15px;
+  text-align: center;
+  /* border-radius: 50%; */
+}
+
+.tit {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 0.15em;
+}
+
+#timer {
+  background: skyblue;
+  height: 80px;
+  line-height: 80px;
+  font-size: 40px;
+  margin-bottom: 12px;
+  margin-top: 10px;
+}
+
+.btn {
+  width: 85px;
+  height: 40px;
+  line-height: 45px;
+  background: limegreen;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+}
+
+.col {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inactive {
+  opacity: 0.5;
+}
+
+
 /* footer */
 
 footer {
