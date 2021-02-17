@@ -1,0 +1,21 @@
+body {
+  background: black;
+}
+
+.coment {
+  margin-top: 100px;
+}
+
+h1 {
+  color: yellow;
+  margin-top: -15px;
+}
+
+p {
+  color: #fff;
+  margin-top: 10px;
+}
+
+.form label {
+  color: #fff;
+}
