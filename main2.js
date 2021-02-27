@@ -68,4 +68,12 @@
     elapsedTime = 0;
   });
 
+
+
+  const fake = document.getElementById('fake');
+  const img = document.querySelector('img');
+
+  fake.addEventListener('mouseover', () => {
+    img.src = "image/images/IMG_1010.jpg";
+  });
 }

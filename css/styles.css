@@ -1,5 +1,5 @@
 body {
-  background: black;
+  background:rgba(80,80,10,5);
 }
 
 .coment {
@@ -18,4 +18,11 @@ p {
 
 .form label {
   color: #fff;
+}
+
+.change {
+  color:#cee;
+  font-size: 12px;
+  padding-top: 20px;
+  text-align: right;
 }

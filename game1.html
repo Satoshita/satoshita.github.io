@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Number guessing game</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <style>
+      html {
+        font-family: sans-serif;
+      }
+
+      body {
+        width: 50%;
+        max-width: 800px;
+        min-width: 480px;
+        margin: 0 auto;
+      }
+
+      .lastResult {
+        color: white;
+        padding: 3px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <p class="coment">感の良さが分ります！（＾_＾）</p>
+    <h1>数字推測ゲーム</h1>
+
+    <p>1 から 100 までの乱数を選択してください。あなたは10回以下でそれを推測できるかどうかを試してください。あなたの推測が高すぎたか低すぎたかをコンピューターが教えてくれます。</p>
+
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>
+    </div>
+
+    <div class="form">
+      <label for="guessField">予想を入力してください。: </label>
+      <input type="text" id="guessField" class="guessField">
+      <input type="submit" value="予想数字" class="guessSubmit">
+    </div>
+
+    <p class="change">数当てゲームは =><a href="game2.html">こちら</a></P>
+
+    <script src="./game.js"></script>
+  </body>
+</html>

@@ -21,4 +21,5 @@
     btn.textContent = result[Math.floor(Math.random() * result.length)];
 
   });
+
 }

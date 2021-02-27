@@ -1,0 +1,61 @@
+body {
+  background:rgba(80,80,10,5);
+  padding-top: 100px;
+}
+
+h2 {
+  margin-bottom: -8px;
+  line-height: 5px;
+  text-align: center;
+  color: yellow;
+}
+
+h5 {
+  font-size: 12px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  text-align: center;
+  margin-bottom: -27px;
+  color: #ccc;
+}
+
+div p {
+  width: 300px;
+  height: 60px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background: black;
+  text-align: center;
+  padding-top: 10px;
+  user-select: none;
+  border-radius: 3mm;
+  display: block;
+  margin: 15px auto;
+}
+
+.one, .two, .three, .four {
+  margin-bottom: -10px;
+}
+
+#btn {
+  width: 50px;
+  height: 50px;
+  font-size: 16px;
+  border-radius: 50%;
+  background: red;
+  color: #fff;
+  display: block;
+  margin: 15px auto;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+}
+
+#btn:active {
+  box-shadow: 0 5px 0 rgb(236, 74, 4);
+}
+
+.change {
+  color: #cee;
+  text-align: center;
+  font-size: 12px;
+}
