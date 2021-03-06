@@ -17,7 +17,7 @@
 
       p1.textContent = `Daiya-${arr[random(arr)]}`;
       p1.style.color = 'limegreen';
-      
+
       p2.textContent = `Hart-${arr[random(arr)]}`;
       p2.style.color = 'orange';
 
@@ -26,4 +26,24 @@
     }
   }
   change();
+
+  // パスワードジェネ
+  const btn1 = document.getElementById('btn1');
+
+  function random() {
+    return Math.floor(Math.random() * (string.length + 1));
+  }
+
+  const string = "abcdefghijklmnopqrstuvwxyz01234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ@＃$％^＆*\/><?:;`~{}|)(!_-";
+
+  btn1.addEventListener('click', () => {
+    const input = document.querySelector('input');
+    const li = document.createElement('li');
+    for (let i = 0; i < Number(input.value); i++) {
+      li.textContent += string[random(input.value)];
+      document.querySelector('ol').appendChild(li);
+    }
+    input.value = '';
+    input.focus();
+  });
 }
